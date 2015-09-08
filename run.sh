@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ ${CFGFILE} ]]; then
-  cp ${CFGFILE} /slack-irc/config.json
+  mkdir -p /slack-irc && cp ${CFGFILE} /slack-irc/config.json
 fi
 
 case ${1} in

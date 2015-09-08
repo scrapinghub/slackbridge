@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y
 
 # Install our favorite tools and other requirements
-RUN apt-get install -y vim supervisor
+RUN apt-get install -y curl wget vim supervisor
 
 # Install nodejs
 RUN curl -sL https://deb.nodesource.com/setup | bash -
