@@ -3,7 +3,7 @@ Docker container for [slack-irc](https://github.com/ekmartin/slack-irc)
 
 ### Installation
 ```
-git clone https://github.com/caktux/slackbridge
+git clone https://github.com/scrapinghub/slackbridge
 ```
 
 ### Configuration
